@@ -3,14 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Accès aux éléments</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 500px;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 22px;
+            margin-bottom: 30px;
+        }
+
+        a.button {
+            display: inline-block;
+            background-color: #fff;
+            color: #000;
+            text-decoration: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 18px;
+            transition: transform 0.1s ease;
+        }
+
+        a.button:hover {
+            transform: scale(1.05);
+        }
+
+        p {
+            margin-top: 30px;
+            font-size: 14px;
+            opacity: 0.85;
+        }
+    </style>
 </head>
 <body>
+    <div class="container">
+        <h1>Clique sur le bouton pour accéder aux éléments 🔍</h1>
 
-    <p>
-        👉 <a href="https://www.notion.so/T-l-phone-d-Adrien-2c0edb39e2718037a342d4fba7023651?source=copy_link" target="_blank">
-        Clique ici pour accéder aux éléments
+        <a 
+            class="button"
+            href="https://TON_LIEN_NOTION_OU_VIDEO_ICI"
+            target="_blank"
+        >
+            Découvrir
         </a>
-    </p>
 
+        <p>
+            Puis reviens en arrière à l’aide de la flèche de ton navigateur
+            pour retrouver ta progression dans le PDF.
+        </p>
+    </div>
 </body>
 </html>
